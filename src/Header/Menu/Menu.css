@@ -1,0 +1,24 @@
+.Menu {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.Menu__link {
+  padding: 4px 12px;
+  margin: 10px 4px 6px 4px;
+  background: none;
+  display: block;
+  text-decoration: none;
+  border: 1px solid gray;
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}

@@ -1,0 +1,24 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  background: red;
+  justify-content: space-between;
+}
+
+.Footer__links {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background: yellow;
+  flex: 1;
+
+}
+
+.Footer__copyright {
+  padding: 16px;
+  background: brown;
+  font-size: 1.4rem;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.FooterLink {
+  display: block;
+  padding: 8px;
+  background: #DDD;
+}
+
+.FooterLink__link svg {
+  width: 32px;
+  height: 32px;
+  fill: #000;
+}
+
+.FooterLink__link--facebook:hover svg {
+  fill: #3B5998;
+}
+.FooterLink__link--github:hover svg {
+  fill: #181717;
+}
+.FooterLink__link--googleplus:hover svg {
+  fill: #DC4E41;
+}
+.FooterLink__link--linkedin:hover svg {
+  fill: #0077B5;
+}

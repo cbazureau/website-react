@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: red;
+}
+
+.Page {
+  position: relative;
+  flex: 1;
+  background-color: violet;
+}
+
+
+.CurrentJob {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 2px 0 0 #e5e5e5;
+  padding: 3em;
+  border-radius: 6px;
+  margin: 0 32px;
+}
