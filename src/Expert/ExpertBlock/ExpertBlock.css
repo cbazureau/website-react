@@ -1,0 +1,23 @@
+.ExpertBlock {
+  width: 100%;
+  padding: 8px 16px;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .ExpertBlock {
+    width: 50%;
+  }
+}
+
+.ExpertBlock__title {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.ExpertBlock__desc {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+

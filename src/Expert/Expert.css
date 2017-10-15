@@ -3,17 +3,33 @@
   flex-direction: column;
 }
 
-.Expert__introTitle {
-  font-size: 1.5rem;
+.Expert__title {
+  font-size: 1.6rem;
   font-weight: bold;
   padding: 4px;
+  text-align: center;
 }
 
-.Expert__introDesc {
+.Expert__desc {
   font-size: 1.5rem;
   padding: 4px;
+  text-align: center;
+  margin: 0 auto 16px auto;
+  max-width: 500px;
+  line-height: 1.4;
+}
+
+.Expert__separator {
+  margin: 16px 0;
 }
 
 .Expert__img {
   width: 100%;
+  border-radius: 6px;
+}
+
+.Expert__features {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

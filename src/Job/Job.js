@@ -4,7 +4,9 @@ import './Job.css';
 const Job = ({logo, company, description, url, children, dates}) => (
   <div className="Job">
     <div className="Job__main">
-      <img src={logo} className="Job__logo" alt={company} />
+      <div className="Job__logo">
+        <img src={logo} alt={company} className="Job__logoImg" />
+      </div>
       <div className="Job__description">
         <span className="Job__company">{company}</span>
         <span className="Job__dates">{dates}</span>

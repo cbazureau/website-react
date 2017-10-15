@@ -11,10 +11,14 @@
   background-repeat: repeat,no-repeat;
   background-size: cover;
   color: #fff;
-  padding: 8em 0 10em;
+  padding: 8em 0 6em;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.Header__logo {
+  border-radius: 50%;
 }
 
 .Header__name {
@@ -27,7 +31,13 @@
   font-size: 2rem;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 500px) {
+  .Header__banner {
+    padding: 10em 0 10em;
+  }
+}
+
+@media only screen and (min-width: 650px) {
   .Header__banner {
     padding: 12em 0 18em;
   }

@@ -21,6 +21,9 @@
   width: 100%;
   margin-bottom: 16px;
 }
+.Job__logoImg {
+  width: 100%;
+}
 
 @media only screen and (min-width: 500px) {
   .Job__logo {
@@ -34,6 +37,7 @@
 .Job__description {
   padding: 4px 8px 4px 16px;
   position: relative;
+  flex: 1;
 }
 
 .Job__company {

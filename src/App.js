@@ -53,9 +53,8 @@ class App extends Component {
                 dates="jan 2015 - avr 2017"
                 url="http://www.canalplus.fr/"
                 description="Chef de projet d&eacute;veloppement, d&eacute;veloppeur,
-                  devOps dans le cadre de la refonte du SI Canal+.
-                  J'interviens maintenant en tant que Lead Tech Full Stack
-                  sur la feature VENTE" >
+                  devOps dans le cadre de la refonte du SI Canal+ puis Lead Tech Full Stack
+                  sur la feature VENTE." >
                 AngularJs, NodeJs/PM2, Apache/Nginx, MongoDb, Gulp, HTML5, CSS3, Javascript
               </Job>
 
@@ -65,10 +64,9 @@ class App extends Component {
                 dates="aou 2009 - nov 2014"
                 url="http://www.bouyguestelecom.fr/"
                 description="Chef de projet d&eacute;veloppement et d&eacute;veloppeur sur
-                  les sites Bouygues T&eacute;l&eacute;com ainsi que les applications
-                  smartphones (iOs et Android)
+                  les sites Grand Public de Bouygues T&eacute;l&eacute;com.
                 " >
-                PHP, NodeJs, Nginx, Objective C, Java Android, Oracle, RethinkDb, HTML5, CSS3, Javascript
+                PHP, NodeJs, Nginx, MySQL, Oracle, RethinkDb, HTML5, CSS3, Javascript
               </Job>
 
               <Job
