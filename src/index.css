@@ -1,8 +1,22 @@
+/* https://github.com/facebookincubator/create-react-app/issues/1283 */
+:root {
+  --neutral-lightest: #fff;
+  --neutral-lighter: #f9f9fb;
+  --neutral-light: #e6e6e6;
+  --neutral-medium: #aaadb3;
+  --neutral-neutral: #5b5d5d;
+  --neutral-base: #333;
+  --neutral-darker: #1f2532;
+  --neutral-darkest: #000;
+}
+
 html {
   font-size: 62.5%;
 }
 body {
   margin: 0;
   padding: 0;
+  color: var(--neutral-base);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+

@@ -4,14 +4,14 @@
 }
 
 .Header__banner {
-  background-attachment: scroll,fixed;
+  background-attachment: scroll, fixed;
   background-color: #666;
   background-image: url('/banner.jpg');
   background-position: top center,center center;
   background-repeat: repeat,no-repeat;
   background-size: cover;
   color: #fff;
-  padding: 12em 0 18em;
+  padding: 8em 0 10em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,16 +19,16 @@
 
 .Header__name {
   font-size: 3.4rem;
+  font-weight: normal;
 }
 
 .Header__job {
   margin-top: 0;
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1024px) {
   .Header__banner {
-    background-attachment: scroll;
-    padding: 8em 0 10em;
+    padding: 12em 0 18em;
   }
 }

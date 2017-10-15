@@ -11,14 +11,37 @@
 }
 
 .Menu__link {
-  padding: 4px 12px;
+  padding: 4px 8px;
   margin: 10px 4px 6px 4px;
   background: none;
   display: block;
+  border: none;
   text-decoration: none;
-  border: 1px solid gray;
   font-size: 1.3rem;
-  color: white;
   cursor: pointer;
   border-radius: 6px;
+  color: #DDD;
+  transition: background, color 0.5s;
+}
+
+.Menu__link:hover,
+.Menu__link:focus {
+  background: gray;
+  color: white;
+}
+
+
+
+.Menu__link--cv {
+  display: none;
+  border: 1px solid gray;
+  padding: 4px 12px;
+  margin: 10px 4px 6px 4px;
+}
+
+
+@media only screen and (min-width: 650px) {
+  .Menu__link--cv {
+    display: block;
+  }
 }

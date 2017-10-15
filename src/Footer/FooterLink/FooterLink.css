@@ -1,13 +1,12 @@
 .FooterLink {
   display: block;
   padding: 8px;
-  background: #DDD;
 }
 
 .FooterLink__link svg {
   width: 32px;
   height: 32px;
-  fill: #000;
+  fill: var(--neutral-base);
 }
 
 .FooterLink__link--facebook:hover svg {

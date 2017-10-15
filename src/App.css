@@ -1,26 +1,21 @@
 .App {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: red;
+  background-color: var(--neutral-light);
 }
 
 .Page {
-  position: relative;
   flex: 1;
-  background-color: violet;
+  background-color: var(--neutral-light);
 }
 
-
-.CurrentJob {
-  position: absolute;
-  top: -50px;
+.Page__inner {
+  position: relative;
+  top: -32px;
   left: 0;
   right: 0;
-  background: #fff;
-  box-shadow: 0 2px 0 0 #e5e5e5;
-  padding: 3em;
+  bottom: 0;
+  background-color: var(--neutral-lightest);
+  box-shadow: 0 1px 0 0 #e5e5e5;
+  padding: 32px;
   border-radius: 6px;
   margin: 0 32px;
 }
