@@ -1,5 +1,11 @@
 .Footer {
-  padding: 0px 32px 32px 32px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 620px) {
+  .Footer {
+    padding: 0 32px 32px;
+  }
 }
 
 .Footer__inner {
@@ -7,10 +13,16 @@
   flex-direction: row;
   justify-content: space-between;
   background: var(--neutral-lightest);
-  border-radius: 6px;
   max-width: 800px;
   margin: 0 auto;
 }
+
+@media only screen and (min-width: 620px) {
+  .Footer__inner {
+    border-radius: 6px;
+  }
+}
+
 
 .Footer__links {
   margin: 0px 0px 0px 16px;
