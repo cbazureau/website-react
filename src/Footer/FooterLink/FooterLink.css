@@ -1,12 +1,21 @@
 .FooterLink {
   display: block;
-  padding: 8px;
+  padding: 4px;
 }
 
 .FooterLink__link svg {
   width: 32px;
   height: 32px;
+  margin: 4px;
+  display: block;
   fill: var(--neutral-base);
+  transition: all 0.3s;
+}
+
+.FooterLink__link:hover svg {
+  margin: 2px;
+  width: 36px;
+  height: 36px;
 }
 
 .FooterLink__link--facebook:hover svg {

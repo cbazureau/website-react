@@ -11,11 +11,13 @@ const Job = ({logo, company, description, url, children, dates}) => (
         <span className="Job__desc">{description}</span>
       </div>
     </div>
-    <div className="Job__details">
-      <span className="Job__detailsTitle">Environnements techniques</span>
-      <span className="Job__detailsDesc">{children}</span>
-      <span className="Job__detailsMore">En savoir plus sur <a href={url}>{company}</a></span>
-    </div>
+    {children &&
+      (<div className="Job__details">
+        <span className="Job__detailsTitle">Environnements techniques</span>
+        <span className="Job__detailsDesc">{children}</span>
+        <span className="Job__detailsMore">En savoir plus sur <a href={url}>{company}</a></span>
+      </div>)
+    }
   </div>
 );
 

@@ -21,7 +21,7 @@
   cursor: pointer;
   border-radius: 6px;
   color: #DDD;
-  transition: background, color 0.5s;
+  transition: all 0.5s;
 }
 
 .Menu__link:hover,
