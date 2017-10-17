@@ -1,10 +1,12 @@
 .ExpertBlock {
   width: 100%;
   padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 650px) {
   .ExpertBlock {
     width: 50%;
   }
@@ -19,5 +21,15 @@
   text-align: center;
   font-size: 1.4rem;
   line-height: 1.4;
+}
+
+.ExpertBlock__icon {
+  display: inline-block;
+  width: 100px;
+}
+
+.ExpertBlock__link {
+  font-size: 1.4rem;
+  color: var(--neutral-base);
 }
 

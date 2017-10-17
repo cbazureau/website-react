@@ -4,6 +4,7 @@ import Footer from './Footer/Footer';
 import Job from './Job/Job';
 import Expert from './Expert/Expert';
 import Title from './Title/Title';
+import Contact from './Contact/Contact';
 import './App.css';
 
 class App extends Component {
@@ -28,14 +29,19 @@ class App extends Component {
                 description="Lead Tech des équipes (4 équipes, + de 15 developpeurs)
                   dans le cadre de la refonte des sites du groupe Renault (Renault, Nissan, Alpine)
                   qui seront déployés dans plus de 50 pays." >
-                - Stack ReactJs :
-                - SSR, chunking
-                - redux, webpack, babel, thunk, axios
-                - jest, enzyme, cucumber, browserstack
-                - styleguidist, eslint, flow
-
-                - Nginx, AEM, Controller en Java
-                - Hébergement AWS : Cloudfront, Docker/ECS
+                  <ul>
+                    <li>Stack ReactJs :
+                      <ul>
+                        <li>SSR, Chunking, ...</li>
+                        <li>Redux, Webpack, Babel, Thunk, Axios, ...</li>
+                        <li>Jest, Enzyme, Cucumber, BrowserStack, ...</li>
+                        <li>Styleguidist, Eslint, Flow, ...</li>
+                      </ul>
+                    </li>
+                    <li>Gitlab, Gitlab-Ci</li>
+                    <li>Nginx, AEM, Controller en Java</li>
+                    <li>Hébergement AWS : Cloudfront, Docker/ECS</li>
+                  </ul>
               </Job>
             </div>
 
@@ -97,14 +103,7 @@ class App extends Component {
 
             <div className="Page__section Page__section--last">
               <Title title="Contact" />
-
-              <div className="Contact">
-                <span className="Contact__text">
-                  Si vous avez une question ou une proposition d'emploi (de préférence sur Lyon) vous pouvez
-                  me contacter via mon profil linkedin.
-                </span>
-                <a href="https://www.linkedin.com/in/cbazureau" className="Contact__CTA">Contactez-moi !</a>
-              </div>
+              <Contact />
             </div>
 
 

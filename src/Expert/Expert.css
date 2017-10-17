@@ -20,7 +20,7 @@
 }
 
 .Expert__separator {
-  margin: 16px 0;
+  margin: 16px 0 32px 0;
 }
 
 .Expert__img {
@@ -33,3 +33,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.st3{fill:var(--neutral-medium);}
+.st4{fill:var(--neutral-neutral);}
+.st5{fill:var(--neutral-base);}
