@@ -4,12 +4,11 @@
 }
 
 .Header__banner {
-  background-attachment: scroll, fixed;
   background-color: #666;
-  background-image: url('/banner.jpg');
-  background-position: top center,center center;
-  background-repeat: repeat,no-repeat;
-  background-size: cover;
+  background-image: url('/overlay.png'), url('/banner.jpg');
+  background-position: top left,center center;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
   color: #fff;
   padding: 8em 0 6em;
   display: flex;
@@ -40,5 +39,11 @@
 @media only screen and (min-width: 650px) {
   .Header__banner {
     padding: 12em 0 18em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .Header__banner {
+    padding: 16em 0 25em;
   }
 }

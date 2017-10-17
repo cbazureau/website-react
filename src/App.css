@@ -19,11 +19,19 @@
     right: 0;
     bottom: 0;
     margin: 0 32px;
+    margin-bottom: -32px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .Page__inner {
+    top: -128px;
+    margin-bottom: -98px;
   }
 }
 
 .Page__section {
-  max-width: 800px;
+  max-width: 900px;
   background: var(--neutral-lightest);
   border: 1px solid var(--neutral-light);
   box-shadow: 0 1px 0 0 #e5e5e5;
