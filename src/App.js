@@ -28,7 +28,7 @@ class App extends Component {
             <div className="Page__section" ref="current">
               <Title title="Poste actuel" />
               <Job
-                logo="/pic06.jpg"
+                logo="/static/img/pic06.jpg"
                 company="Groupe Renault"
                 dates="depuis mai 2017"
                 url="https://group.renault.com/en/"
@@ -60,7 +60,7 @@ class App extends Component {
               <Title title="Postes précédents" />
 
               <Job
-                logo="/pic02.jpg"
+                logo="/static/img/pic02.jpg"
                 company="Canal+"
                 dates="jan 2015 - avr 2017"
                 url="http://www.canalplus.fr/"
@@ -71,7 +71,7 @@ class App extends Component {
               </Job>
 
               <Job
-                logo="/pic03.jpg"
+                logo="/static/img/pic03.jpg"
                 company="Bouygues Telecom"
                 dates="aou 2009 - nov 2014"
                 url="http://www.bouyguestelecom.fr/"
@@ -82,7 +82,7 @@ class App extends Component {
               </Job>
 
               <Job
-                logo="/pic04.jpg"
+                logo="/static/img/pic04.jpg"
                 company="Sopra Group"
                 dates="déc 2004 - jui 2009"
                 url="http://www.sopra.com/"
@@ -96,7 +96,7 @@ class App extends Component {
             <div className="Page__section">
               <Title title="Ecole" />
               <Job
-                logo="/pic05.jpg"
+                logo="/static/img/pic05.jpg"
                 company="Telecom Bretagne"
                 dates="2004"
                 url="http://www.telecom-bretagne.eu/"

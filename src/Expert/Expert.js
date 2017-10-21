@@ -82,7 +82,7 @@ const Expert = () => (
       </span>
     </div>
     <div className="Expert__separator">
-      <img className="Expert__img" src="/pic01.jpg" alt="separator" />
+      <img className="Expert__img" src="/static/img/pic01.jpg" alt="separator" />
     </div>
     <div className="Expert__features">
       <ExportBlock
