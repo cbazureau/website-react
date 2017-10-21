@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Job from './Job/Job';
@@ -10,7 +11,12 @@ import './App.css';
 class App extends Component {
 
   handleSectionChange = (section) => () => {
-    console.log(section)
+    const node = ReactDOM.findDOMNode(this.refs[section])
+    if (window.getComputedStyle(node.parentNode).position === 'relative') {
+      window.scrollTo(0, node.parentNode.offsetTop + node.offsetTop);
+    } else {
+      window.scrollTo(0, node.offsetTop);
+    }
   }
 
   render() {
@@ -19,7 +25,7 @@ class App extends Component {
         <Header onSectionChange={this.handleSectionChange} />
         <div className="Page">
           <div className="Page__inner">
-            <div className="Page__section">
+            <div className="Page__section" ref="current">
               <Title title="Poste actuel" />
               <Job
                 logo="/pic06.jpg"
@@ -45,12 +51,12 @@ class App extends Component {
               </Job>
             </div>
 
-            <div className="Page__section">
+            <div className="Page__section" ref="xp">
               <Title title="Expertise" />
               <Expert />
             </div>
 
-            <div className="Page__section">
+            <div className="Page__section" ref="jobs">
               <Title title="Postes précédents" />
 
               <Job

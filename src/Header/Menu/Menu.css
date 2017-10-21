@@ -13,15 +13,23 @@
 .Menu__link {
   padding: 4px 8px;
   margin: 10px 4px 6px 4px;
+  font-size: 1.3rem;
   background: none;
   display: block;
   border: none;
   text-decoration: none;
-  font-size: 1.3rem;
   cursor: pointer;
   border-radius: 6px;
   color: #DDD;
   transition: all 0.5s;
+}
+
+@media only screen and (min-width: 620px) {
+  .Menu__link {
+    padding: 8px 16px;
+    margin: 10px 4px 6px 4px;
+    font-size: 1.6rem;
+  }
 }
 
 .Menu__link:hover,
