@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: 
-Sitemap: http://cedric.bazureau.com/sitemap.xml
+Disallow:
+Sitemap: https://cedric.bazureau.com/sitemap.xml
