@@ -1,7 +1,7 @@
 import React from 'react';
 import './Job.css';
 
-const Job = ({logo, company, description, url, children, dates}) => (
+const Job = ({logo, company, description, url, children, dates, current}) => (
   <div className="Job">
     <div className="Job__main">
       <div className="Job__logo">
@@ -15,7 +15,7 @@ const Job = ({logo, company, description, url, children, dates}) => (
     </div>
     {children &&
       (<div className="Job__details">
-        <span className="Job__detailsTitle">Environnements techniques</span>
+        <span className="Job__detailsTitle">{!current && "Rôles et"} Environnements techniques</span>
         <span className="Job__detailsDesc">{children}</span>
         <span className="Job__detailsMore">En savoir plus sur <a href={url}>{company}</a></span>
       </div>)

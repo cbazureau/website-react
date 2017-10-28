@@ -95,3 +95,6 @@
   font-weight: bold;
 }
 
+.Job__detailsDesc ul {
+  padding-left: 20px;
+}

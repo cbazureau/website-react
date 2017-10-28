@@ -26,3 +26,12 @@ body {
   box-sizing: border-box;
   font-family: 'Renault', 'Arial', sans-serif;
 }
+
+a,
+a:visited {
+  color: var(--neutral-darker);
+}
+
+a:hover {
+  color: var(--neutral-neutral);
+}
