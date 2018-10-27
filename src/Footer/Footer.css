@@ -23,7 +23,6 @@
   }
 }
 
-
 .Footer__links {
   margin: 0px 0px 0px 16px;
   padding: 6px;
@@ -31,7 +30,6 @@
   flex-direction: row;
   list-style: none;
   flex: 1;
-
 }
 
 .Footer__copyright {

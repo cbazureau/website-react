@@ -6,5 +6,5 @@
   margin: 0 auto 32px auto;
   width: 60%;
   color: var(--neutral-base);
-  border-bottom: 1px dotted var(--neutral-medium)
+  border-bottom: 1px dotted var(--neutral-medium);
 }
