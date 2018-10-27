@@ -5,8 +5,8 @@
   "dependencies": {
     "postcss-cli": "^4.1.1",
     "postcss-custom-properties": "^6.2.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
     "react-scripts": "1.0.14"
   },
   "scripts": {
@@ -14,6 +14,23 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "prettier": "prettier --write src/**/*.js",
     "postbuild": "postcss --use postcss-custom-properties --replace build/**/*.css"
+  },
+  "devDependencies": {
+    "husky": "^1.1.2",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
