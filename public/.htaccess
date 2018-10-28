@@ -28,6 +28,10 @@ Header append Vary User-Agent env=!dont-vary
 Header unset ETag
 FileETag none
 
+<FilesMatch "\.html$">
+    Header set Link "</main.css>; rel=preload; as=style,</main.js>; rel=preload; as=script"
+</FilesMatch>
+
 ##### Headers Expires
 <IfModule mod_expires.c>
   ExpiresActive On
