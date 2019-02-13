@@ -1,10 +1,15 @@
 {
-  "short_name": "Cédric Bazureau",
+  "short_name": "Cédric B.",
   "name": "Cédric Bazureau Website",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon192x192.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
