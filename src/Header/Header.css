@@ -19,6 +19,7 @@
 
 .Header__logo {
   border-radius: 50%;
+  width: 100px;
 }
 
 .Header__name {

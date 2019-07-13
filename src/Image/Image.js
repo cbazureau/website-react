@@ -27,7 +27,23 @@ const Image = ({ src, alt, className, isLazyLoaded = true }) => {
 
   return (
     <Comp {...options}>
-      <img src={srcImage} alt={alt} className={`Image ${className}`} />
+      <picture>
+        <source
+          srcSet={srcImage.replace(".jpg", ".webp")}
+          media="(min-width: 620px)"
+          type="image/webp"
+        />
+        <source srcSet={srcImage} media="(min-width: 620px)" />
+        <source
+          srcSet={srcImage.replace(".jpg", ".small.webp")}
+          type="image/webp"
+        />
+        <img
+          src={srcImage.replace(".jpg", ".small.jpg")}
+          alt={alt}
+          className={`Image ${className}`}
+        />
+      </picture>
     </Comp>
   );
 };

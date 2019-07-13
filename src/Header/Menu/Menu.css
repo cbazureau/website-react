@@ -4,10 +4,17 @@
   display: flex;
   flex-direction: row;
   list-style: none;
+  justify-content: center;
   flex: 1;
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+@media only screen and (min-width: 620px) {
+  .Menu {
+    justify-content: flex-start;
+  }
 }
 
 .Menu__link {
@@ -20,7 +27,7 @@
   text-decoration: none;
   cursor: pointer;
   border-radius: 6px;
-  color: #DDD;
+  color: #ddd;
   transition: all 0.5s;
 }
 
@@ -38,15 +45,12 @@
   color: white;
 }
 
-
-
 .Menu__link--cv {
   display: none;
   border: 1px solid gray;
   padding: 4px 12px;
   margin: 10px 4px 6px 4px;
 }
-
 
 @media only screen and (min-width: 620px) {
   .Menu__link--cv {
