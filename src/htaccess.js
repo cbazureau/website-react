@@ -13,8 +13,8 @@ const fileTransform = (file, transformation) => {
   });
 };
 
-fileTransform("./build/.htaccess", data =>
-  data
-    .replace("</main.css>", `</${assets["main.css"]}>`)
-    .replace("</main.js>", `</${assets["main.js"]}>`)
-);
+fileTransform("./build/.htaccess", data => {
+  return data
+    .replace("</main.css>", `<${assets.files["main.css"]}>`)
+    .replace("</main.js>", `<${assets.files["main.js"]}>`);
+});
