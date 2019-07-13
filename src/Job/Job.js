@@ -1,11 +1,12 @@
 import React from "react";
 import "./Job.css";
+import Image from "../Image/Image";
 
 const Job = ({ logo, company, description, url, children, dates, current }) => (
   <div className="Job">
     <div className="Job__main">
       <div className="Job__logo">
-        <img src={logo} alt={company} className="Job__logoImg" />
+        <Image src={logo} alt={company} className="Job__logoImg" />
       </div>
       <div className="Job__description">
         <span className="Job__company">{company}</span>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Expert.css";
 import ExportBlock from "./ExpertBlock/ExpertBlock";
+import Image from "../Image/Image";
 
 const renderSVGLeBeauJeu = () => (
   <svg
@@ -128,7 +129,7 @@ const Expert = () => (
       </span>
     </div>
     <div className="Expert__separator">
-      <img
+      <Image
         className="Expert__img"
         src="/static/img/pic01.jpg"
         alt="separator"

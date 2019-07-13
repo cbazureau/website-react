@@ -38,19 +38,45 @@ class App extends Component {
               >
                 <ul>
                   <li>
-                    Stack ReactJs :
+                    Stack ReactJs
                     <ul>
-                      <li>SSR, Chunking, ...</li>
-                      <li>Redux, Webpack, Babel, Thunk, Axios, ...</li>
+                      <li>
+                        <strong>Server Side Rendering (SSR)</strong> with Server
+                        Push and dns-prefetch
+                      </li>
+                      <li>
+                        <strong>Responsive</strong> websites and Jpg/Webp
+                        pictures
+                      </li>
+                      <li>
+                        IntersectionObserver <strong>Lazyloading</strong> for
+                        pictures and videos
+                      </li>
+                      <li>
+                        JS and CSS <strong>Component-Based Chunking</strong>
+                      </li>
+                      <li>
+                        JSON page description provided by{" "}
+                        <strong>Adobe Experience Manager (AEM)</strong>
+                      </li>
+                      <li>
+                        <strong>React</strong> (with hooks), Redux, Webpack,
+                        Babel, Thunk, Axios, Lodash, ...
+                      </li>
                       <li>Jest, Enzyme, ...</li>
-                      <li>Eslint, Flow, ...</li>
+                      <li>Eslint, Stylelint, Flow, Prettier...</li>
                     </ul>
                   </li>
-                  <li>Gitlab, Gitlab-Ci, Docker de build</li>
+                  <li>
+                    <strong>Gitlab, Gitlab-Ci</strong>, <strong>Docker</strong>{" "}
+                    de build et de run
+                  </li>
                   <li>
                     Nginx, AEM, Controlleur en Java, Aggregateur en NodeJs
                   </li>
-                  <li>Hébergement AWS : Cloudfront, Docker/ECS</li>
+                  <li>
+                    Hébergement <strong>AWS</strong> : Cloudfront, Docker/ECS
+                  </li>
                 </ul>
               </Job>
             </div>
@@ -211,7 +237,7 @@ class App extends Component {
                 dates="2004"
                 url="http://www.telecom-bretagne.eu/"
                 description="Diplom&eacute; en 2004 de Telecom Bretagne, &eacute;cole
-                d&apos;ing&eacute;nieur faisant partie du concours des Mines et situ&eacute;
+                d'ing&eacute;nieur faisant partie du concours des Mines et situ&eacute;
                 &agrave; Plouzan&eacute; pr&egrave;s de Brest.
                 "
               />

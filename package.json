@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "dependencies": {
+    "@researchgate/react-intersection-observer": "^1.0.1",
     "postcss-cli": "^6.1.2",
     "postcss-custom-properties": "^9.0.1",
     "react": "^16.8.6",
