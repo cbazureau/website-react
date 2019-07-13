@@ -1,17 +1,39 @@
 .Header {
   background: gray;
-  position: relative;
+  z-index: 1;
+  height: 400px;
+  overflow: hidden;
+}
+
+.Header__background {
+  position: absolute;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 620px) {
+  .Header {
+    height: 500px;
+  }
+  .Header__background {
+    height: 500px;
+    width: 100%;
+  }
+}
+
+.Header__txt {
+  position: absolute;
+  color: #fff;
+  padding: 8em 0 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
 }
 
 .Header__banner {
-  background-color: #666;
-  background-image: url("/static/img/overlay.png"),
-    url("/static/img/banner.jpg");
-  background-position: top left, center center;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
-  color: #fff;
-  padding: 8em 0 6em;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,20 +54,8 @@
   font-size: 2rem;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 620px) {
   .Header__banner {
-    padding: 10em 0 10em;
-  }
-}
-
-@media only screen and (min-width: 650px) {
-  .Header__banner {
-    padding: 12em 0 18em;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .Header__banner {
-    padding: 16em 0 25em;
+    padding: 4em 0 0;
   }
 }
