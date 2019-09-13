@@ -1,7 +1,7 @@
-import React from "react";
-import Menu from "./Menu/Menu";
-import Image from "../Image/Image";
-import "./Header.css";
+import React from 'react';
+import Menu from './Menu/Menu';
+import Image from '../Image/Image';
+import './Header.css';
 
 const Header = ({ onSectionChange }) => (
   <header className="Header">

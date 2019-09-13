@@ -1,16 +1,10 @@
-import React from "react";
-import "./Expert.css";
-import ExportBlock from "./ExpertBlock/ExpertBlock";
-import Image from "../Image/Image";
+import React from 'react';
+import './Expert.css';
+import ExportBlock from './ExpertBlock/ExpertBlock';
+import Image from '../Image/Image';
 
 const renderSVGLeBeauJeu = () => (
-  <svg
-    version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    x="0px"
-    y="0px"
-    viewBox="0 0 400 400"
-  >
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 400 400">
     <g>
       <path
         className="st4"
@@ -37,13 +31,7 @@ const renderSVGLeBeauJeu = () => (
 );
 
 const renderSVGParams = () => (
-  <svg
-    version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    x="0px"
-    y="0px"
-    viewBox="0 0 52 52"
-  >
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 52 52">
     <path
       className="st4"
       d="M50.219,21h-2.797c-0.552-2.375-1.486-4.602-2.739-6.613l1.978-1.978
@@ -66,13 +54,7 @@ const renderSVGParams = () => (
 );
 
 const renderSVGTeam = () => (
-  <svg
-    version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    x="0px"
-    y="0px"
-    viewBox="0 0 58 58"
-  >
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 58 58">
     <path
       className="st4"
       d="M53.566,45.283l-9.552-4.776C42.78,39.89,42,38.628,42,37.248V33.5
@@ -96,13 +78,7 @@ const renderSVGTeam = () => (
 );
 
 const renderSVGMobile = () => (
-  <svg
-    version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    x="0px"
-    y="0px"
-    viewBox="0 0 58 58"
-  >
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 58 58">
     <path
       className="st5"
       d="M52.66,29.716c0-0.88-0.343-1.707-0.965-2.329l-0.557-0.557c0.949-0.84,1.521-2.055,1.521-3.362c0-2.481-2.019-4.5-4.5-4.5   c-0.182,0-0.362,0.018-0.54,0.04c0.022-0.179,0.04-0.357,0.04-0.54c0-2.481-2.019-4.5-4.5-4.5c-0.182,0-0.362,0.018-0.54,0.04   c0.022-0.179,0.04-0.357,0.04-0.54c0-2.481-2.019-4.5-4.5-4.5c-0.182,0-0.362,0.018-0.54,0.04c0.022-0.179,0.04-0.357,0.04-0.54   c0-2.481-2.019-4.5-4.5-4.5c-1.308,0-2.522,0.573-3.362,1.521l-0.123-0.123L12.705,22.338l4.238,4.238   c-1.356,0.776-2.283,2.221-2.283,3.892c0,1.566,0.806,2.944,2.023,3.75c0.062,0.083,0.133,0.164,0.221,0.239L27.66,45.172v1.796h-2   v13h18h8v-13h-2v-3.029c1.913-1.621,3-3.952,3-6.471c0-1.74-0.543-3.43-1.536-4.852l0.571-0.571   C52.317,31.423,52.66,30.596,52.66,29.716z M36.66,32.968c0-2.206,1.794-4,4-4s4,1.794,4,4s-1.794,4-4,4S36.66,35.174,36.66,32.968   z M50.66,23.468c0,0.768-0.354,1.479-0.937,1.947l-3.511-3.511c0.468-0.583,1.18-0.937,1.947-0.937   C49.539,20.968,50.66,22.089,50.66,23.468z M45.66,18.468c0,0.768-0.354,1.479-0.937,1.947l-3.511-3.511   c0.468-0.583,1.18-0.937,1.947-0.937C44.539,15.968,45.66,17.089,45.66,18.468z M40.66,13.468c0,0.768-0.354,1.479-0.937,1.947   l-3.511-3.511c0.468-0.583,1.18-0.937,1.947-0.937C39.539,10.968,40.66,12.089,40.66,13.468z M33.16,5.968   c1.379,0,2.5,1.121,2.5,2.5c0,0.768-0.354,1.479-0.937,1.947l-3.511-3.511C31.681,6.322,32.393,5.968,33.16,5.968z M18.621,28.03   l0.415-0.047c0.041-0.006,0.082-0.015,0.124-0.015h10c1.379,0,2.5,1.121,2.5,2.5s-1.121,2.5-2.5,2.5h-2.996h-2.828H19.16   c-1.379,0-2.5-1.121-2.5-2.5C16.66,29.275,17.501,28.278,18.621,28.03z M36.16,56.968c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5   s3.5,1.57,3.5,3.5S38.09,56.968,36.16,56.968z M49.66,57.968h-6v-3.426c0-2.206-0.954-4.188-2.464-5.574h8.464V57.968z    M49.686,34.056c0.634,1.021,0.975,2.202,0.975,3.412c0,2.055-0.948,3.946-2.602,5.191l-0.398,0.3v4.009H36.086H29.66V44.25   l-0.353-0.299c-0.045-0.039-0.093-0.075-0.18-0.14l-8.877-8.844h5.085l9.389,9.39c0.623,0.622,1.45,0.965,2.33,0.965   c0.879,0,1.706-0.343,2.329-0.965L49.686,34.056z"
@@ -121,19 +97,14 @@ const Expert = () => (
         Du d&eacute;veloppement web &agrave; l&apos;expertise...
       </span>
       <span className="Expert__desc">
-        Fort d&apos;une quinzaine ann&eacute;es d&apos;exp&eacute;rience de
-        d&eacute;veloppement et de lead technique au sein de diff&eacute;rentes
-        grandes entreprises de t&eacute;l&eacute;coms, m&eacute;dias et
-        d'industrie j&apos;ai acquis des comp&eacute;tences &agrave; la fois
-        techniques et fonctionnelles sur les m&eacute;tiers du web.
+        Fort d&apos;une quinzaine ann&eacute;es d&apos;exp&eacute;rience de d&eacute;veloppement et
+        de lead technique au sein de diff&eacute;rentes grandes entreprises de
+        t&eacute;l&eacute;coms, m&eacute;dias et d'industrie j&apos;ai acquis des comp&eacute;tences
+        &agrave; la fois techniques et fonctionnelles sur les m&eacute;tiers du web.
       </span>
     </div>
     <div className="Expert__separator">
-      <Image
-        className="Expert__img"
-        src="/static/img/pic01.jpg"
-        alt="separator"
-      />
+      <Image className="Expert__img" src="/static/img/pic01.jpg" alt="separator" />
     </div>
     <div className="Expert__features">
       <ExportBlock

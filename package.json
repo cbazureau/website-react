@@ -1,6 +1,6 @@
 {
   "name": "website-react",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@researchgate/react-intersection-observer": "^1.0.1",
@@ -14,11 +14,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
+    "renault": "node ./src/scripts/renault.js https://one-site-review.wired-aws.com",
     "prettier": "prettier --write src/**/*.*",
     "convert": "node ./src/scripts/convertimg.js",
     "postbuild": "react-snap && postcss --no-map --use postcss-custom-properties --replace build/**/*.css; node ./src/htaccess.js"
   },
   "devDependencies": {
+    "axios": "^0.19.0",
     "husky": "^2.6.0",
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",

@@ -1,6 +1,6 @@
-import React from "react";
-import "./Job.css";
-import Image from "../Image/Image";
+import React from 'react';
+import './Job.css';
+import Image from '../Image/Image';
 
 const Job = ({ logo, company, description, url, children, dates, current }) => (
   <div className="Job">
@@ -16,9 +16,7 @@ const Job = ({ logo, company, description, url, children, dates, current }) => (
     </div>
     {children && (
       <div className="Job__details">
-        <span className="Job__detailsTitle">
-          {!current && "Rôles et"} Environnements techniques
-        </span>
+        <span className="Job__detailsTitle">Environnements techniques</span>
         <span className="Job__detailsDesc">{children}</span>
         <span className="Job__detailsMore">
           En savoir plus sur <a href={url}>{company}</a>

@@ -1,8 +1,10 @@
-const sharp = require("sharp");
-const imgPath = "./public/static/img/";
+const sharp = require('sharp');
+const fs = require('fs');
+const imgPath = './public/static/img/';
 
 const outputLog = current => (err, info) => {
-  console.log(current, err, info);
+  console.log(current.options.fileOut);
+  if (err) console.error(err);
 };
 
 const convertImg = img => {
@@ -19,11 +21,10 @@ const convertImg = img => {
   current.toFile(`${imgPath}${img}.webp`, outputLog(current));
 };
 
-convertImg("banner");
-convertImg("identite");
-convertImg("pic01");
-convertImg("pic02");
-convertImg("pic03");
-convertImg("pic04");
-convertImg("pic05");
-convertImg("pic06");
+fs.readdir(imgPath, (err, files) => {
+  files.forEach(file => {
+    if (file.endsWith('.jpg') && !file.endsWith('.small.jpg')) {
+      convertImg(file.replace('.jpg', ''));
+    }
+  });
+});

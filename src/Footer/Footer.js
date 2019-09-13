@@ -1,6 +1,6 @@
-import React from "react";
-import FooterLink from "./FooterLink/FooterLink";
-import "./Footer.css";
+import React from 'react';
+import FooterLink from './FooterLink/FooterLink';
+import './Footer.css';
 
 const renderFacebookSvg = () => (
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
