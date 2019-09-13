@@ -1,0 +1,24 @@
+name: Build and test
+on: [pull_request]
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    # Install
+    - name: Install
+      id: install
+      run: npm install
+    # Build
+    - name: Build
+      id: build
+      run: npm run build
+    # Test
+    - name: Test
+      id: test
+      run: npm test

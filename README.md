@@ -2,4 +2,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Continous deployment
 
-https://github.com/cbazureau/website-react/workflows/build/badge.svg
+https://github.com/cbazureau/website-react/workflows/continuous-deploy/badge.svg

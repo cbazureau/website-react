@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component renders with props 1`] = `
+<ul
+  className="Menu"
+>
+  <li>
+    <button
+      className="Menu__link"
+      onClick={[Function]}
+    >
+      Poste Actuel
+    </button>
+  </li>
+  <li>
+    <button
+      className="Menu__link"
+      onClick={[Function]}
+    >
+      Expertise
+    </button>
+  </li>
+  <li>
+    <button
+      className="Menu__link"
+      onClick={[Function]}
+    >
+      Carrière
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Menu component renders without crashing 1`] = `
+<ul
+  className="Menu"
+>
+  <li>
+    <button
+      className="Menu__link"
+    >
+      Poste Actuel
+    </button>
+  </li>
+  <li>
+    <button
+      className="Menu__link"
+    >
+      Expertise
+    </button>
+  </li>
+  <li>
+    <button
+      className="Menu__link"
+    >
+      Carrière
+    </button>
+  </li>
+</ul>
+`;
