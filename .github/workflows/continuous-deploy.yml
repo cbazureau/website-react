@@ -1,9 +1,12 @@
-name: Build and deploy
-on: [push]
+name: Build, test and Deploy
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
-    name: Build
+    name: Build, test and Deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
