@@ -1,0 +1,34 @@
+name: Build and deploy
+on: [push]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    # Install
+    - name: Install
+      id: install
+      run: npm install
+    # Build
+    - name: Build
+      id: build
+      run: npm run build
+    # Test
+    - name: Test
+      id: test
+      run: npm test
+    # Deploy
+    - name: Deploy
+      id: deploy
+      uses: SamKirkland/FTP-Deploy-Action@master
+      env:
+       FTP_SERVER: ${{ secrets.FTP_SERVER }}
+       FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+       FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+       LOCAL_DIR: build
+       REMOTE_DIR: ${{ secrets.REMOTE_DIR }}
