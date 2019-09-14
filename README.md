@@ -6,12 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 It also uses :
 
-- **Gitlab Actions** for pull\*\*request (Build and Test) and for push on master (Build, test and deploy)
+- **Gitlab Actions** for pull_request (Build and Test) and for push on master (Build, test and deploy)
 - **Prettier** for auto-formatting code
 - **husky/lint-staged** to set hooks on pre-commit and pre-push
 - **Jest** for unit-testing
 - **Server Push** and **Cache optimizations** using a template-generated .htaccess
 - **Server Side Rendering** using a puppeteer to pre-generate home HTML
+- **Intersection Observer** for cross-browser lazy loading
 
 # Continous deployment
 
