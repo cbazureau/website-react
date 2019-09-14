@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders with props 1`] = `
+<header
+  className="Header"
+>
+  <image
+    alt="banner background"
+    className="Header__background"
+    isLazyLoaded={false}
+    src="/static/img/banner.jpg"
+  />
+  <div
+    className="Header__txt"
+  >
+    <menu
+      onSectionChange={[Function]}
+    />
+    <div
+      className="Header__banner"
+    >
+      <image
+        alt="logo"
+        className="Header__logo"
+        isLazyLoaded={false}
+        src="/static/img/identite.jpg"
+      />
+      <h1
+        className="Header__name"
+      >
+        Cédric Bazureau
+      </h1>
+      <h2
+        className="Header__job"
+        data-section="headline"
+      >
+        Lead Tech Front à Renault
+      </h2>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Header component renders without crashing 1`] = `
+<header
+  className="Header"
+>
+  <image
+    alt="banner background"
+    className="Header__background"
+    isLazyLoaded={false}
+    src="/static/img/banner.jpg"
+  />
+  <div
+    className="Header__txt"
+  >
+    <menu />
+    <div
+      className="Header__banner"
+    >
+      <image
+        alt="logo"
+        className="Header__logo"
+        isLazyLoaded={false}
+        src="/static/img/identite.jpg"
+      />
+      <h1
+        className="Header__name"
+      >
+        Cédric Bazureau
+      </h1>
+      <h2
+        className="Header__job"
+        data-section="headline"
+      >
+        Lead Tech Front à Renault
+      </h2>
+    </div>
+  </div>
+</header>
+`;
