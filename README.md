@@ -6,13 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 It also uses :
 
-- _Gitlab Actions_ for pull_request (Build and Test) and for push on master (Build, test and deploy)
-- _Prettier_ for auto-formatting code
-- _husky/lint-staged_ to set hooks on pre-commit and pre-push
-- _Jest_ for unit-testing
-- _Server Push_ and _Cache optimizations_ using a template-generated .htaccess
-- _Server Side Rendering_ using a puppeteer to pre-generate home HTML
+- **Gitlab Actions** for pull\*\*request (Build and Test) and for push on master (Build, test and deploy)
+- **Prettier** for auto-formatting code
+- **husky/lint-staged** to set hooks on pre-commit and pre-push
+- **Jest** for unit-testing
+- **Server Push** and **Cache optimizations** using a template-generated .htaccess
+- **Server Side Rendering** using a puppeteer to pre-generate home HTML
 
 # Continous deployment
 
-https://github.com/cbazureau/website-react/workflows/Build,%20test%20and%20Deploy/badge.svg
+![pipeline](https://github.com/cbazureau/website-react/workflows/Build,%20test%20and%20Deploy/badge.svg)
