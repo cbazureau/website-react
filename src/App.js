@@ -2,6 +2,7 @@ import React, { useState, useLayoutEffect } from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Job from './Job/Job';
+import Renault from './Job/Renault';
 import Expert from './Expert/Expert';
 import Title from './Title/Title';
 import Contact from './Contact/Contact';
@@ -79,7 +80,9 @@ const App = () => {
                 <li>
                   Hébergement <strong>AWS</strong> : Cloudfront, Docker/ECS / Lambda
                 </li>
+                <li>Monitoring : Lighthouse, Broken Links, Grafana, Kibana, Datadog</li>
               </ul>
+              <Renault />
             </Job>
           </div>
 

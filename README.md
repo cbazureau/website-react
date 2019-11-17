@@ -15,6 +15,7 @@ It also uses :
 - **Server Push** and **Cache optimizations** using a template-generated .htaccess
 - **Server Side Rendering** using a puppeteer to pre-generate home HTML
 - **Intersection Observer** for cross-browser lazy loading
+- **Github Actions** for ci and deploy
 
 # Lighthouse Score
 
