@@ -4,7 +4,7 @@ import './Menu.css';
 const Menu = ({ onSectionChange }) => (
   <ul className="Menu">
     <li key="link-home">
-      <button className="Menu__link" onClick={onSectionChange('crrent')}>
+      <button className="Menu__link" onClick={onSectionChange('current')}>
         Poste Actuel
       </button>
     </li>
