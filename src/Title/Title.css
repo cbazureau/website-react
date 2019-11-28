@@ -8,3 +8,16 @@
   color: var(--neutral-base);
   border-bottom: 1px dotted var(--neutral-medium);
 }
+
+@media only screen and (min-width: 620px) {
+  .Title {
+    text-align: right;
+    font-size: 3.4rem;
+    padding: 0;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    width: 100%;
+    color: var(--neutral-medium);
+    transform: rotate(-2deg);
+  }
+}

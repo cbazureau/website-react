@@ -36,6 +36,7 @@
   align-items: center;
   margin: 6px 2px;
   filter: grayscale(0);
+  background: none;
 }
 
 @media only screen and (min-width: 450px) {
