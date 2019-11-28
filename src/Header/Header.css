@@ -1,22 +1,27 @@
 .Header {
-  background: gray;
   z-index: 1;
   height: 400px;
   overflow: hidden;
 }
 
 .Header__background {
-  position: absolute;
-  height: 400px;
+  height: 100vh;
   object-fit: cover;
   width: 100%;
+  position: fixed;
+}
+
+.Header::after {
+  position: fixed;
+  content: '';
+  height: 100vh;
+  width: 100%;
+  z-index: 2;
+  background: linear-gradient(to bottom, transparent, transparent 60%, var(--neutral-light) 80%);
 }
 
 @media only screen and (min-width: 620px) {
   .Header {
-    height: 500px;
-  }
-  .Header__background {
     height: 500px;
   }
 }

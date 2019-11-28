@@ -4,7 +4,8 @@
 
 .Page {
   flex: 1;
-  background-color: var(--neutral-light);
+  position: relative;
+  z-index: 2;
 }
 @media only screen and (min-width: 620px) {
   .Page {
@@ -51,7 +52,7 @@
   border: 1px solid var(--neutral-light);
   box-shadow: 0 1px 0 0 #e5e5e5;
   padding: 16px 16px 32px;
-  margin: 0 auto 16px;
+  margin: 0 auto 32px;
 }
 
 @media only screen and (min-width: 400px) {
