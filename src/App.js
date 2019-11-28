@@ -17,12 +17,9 @@ const App = () => {
   useLayoutEffect(() => {
     if (currentSection) {
       const node = document.querySelector(`div[data-section=${currentSection}]`);
+      const headerHeight = document.querySelector(`.Header`).getBoundingClientRect().height;
       if (!node) return;
-      if (window.getComputedStyle(node.parentNode).position === 'relative') {
-        window.scrollTo(0, node.parentNode.offsetTop + node.offsetTop);
-      } else {
-        window.scrollTo(0, node.offsetTop);
-      }
+      window.scrollTo(0, headerHeight + node.offsetTop - 100);
     }
   }, [currentSection]);
 
@@ -42,7 +39,7 @@ const App = () => {
               dates="depuis mai 2017"
               url="https://group.renault.com/en/"
               description="Lead Tech des équipes (4 équipes, + de 15 developpeurs)
-                  dans le cadre de la refonte des sites du groupe Renault (Renault, Nissan, Alpine)
+                  dans le cadre de la refonte des sites du groupe Renault (Renault, Dacia, Alpine)
                   qui seront déployés dans plus de 50 pays."
             >
               <ul>
