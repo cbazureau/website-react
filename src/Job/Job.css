@@ -18,7 +18,6 @@
 }
 
 .Job__logo {
-  width: 100%;
   margin-bottom: 16px;
 }
 .Job__logoImg {
@@ -28,7 +27,6 @@
 @media only screen and (min-width: 500px) {
   .Job__logo {
     width: 200px;
-    height: 90px;
     border: 1px solid var(--neutral-light);
     margin-bottom: 0;
   }
