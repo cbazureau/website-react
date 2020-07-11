@@ -18,7 +18,7 @@ const convertImg = img => {
       .webp()
       .toFile(`${imgPath}${img}.small.webp`, outputLog(current));
   });
-  current.toFile(`${imgPath}${img}.webp`, outputLog(current));
+  current.webp().toFile(`${imgPath}${img}.webp`, outputLog(current));
 };
 
 fs.readdir(imgPath, (err, files) => {

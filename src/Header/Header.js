@@ -10,6 +10,7 @@ const Header = ({ onSectionChange }) => (
       src="/static/img/banner.jpg"
       alt="banner background"
       isLazyLoaded={false}
+      isRetina={false}
     />
     <div className="Header__txt">
       <Menu onSectionChange={onSectionChange} />
