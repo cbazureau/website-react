@@ -42,7 +42,7 @@ const Image = ({ src, alt, className, isLazyLoaded = true }) => {
           type="image/webp"
         />
         <img
-          src={`${srcImage.replace('.jpg', '.small.jpg')}, ${srcImage} 2x`}
+          src={srcImage.replace('.jpg', '.small.jpg')}
           alt={alt}
           className={`Image ${className}`}
         />
