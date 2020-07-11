@@ -28,10 +28,9 @@ jobs:
     # Deploy
     - name: Deploy
       id: deploy
-      uses: SamKirkland/FTP-Deploy-Action@master
-      env:
-       FTP_SERVER: ${{ secrets.FTP_SERVER }}
-       FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-       FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-       LOCAL_DIR: build
-       REMOTE_DIR: ${{ secrets.REMOTE_DIR }}
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+       ftp-server: ${{ secrets.FTP_SERVER }}
+       ftp-password: ${{ secrets.FTP_PASSWORD }}
+       ftp-username: ${{ secrets.FTP_USERNAME }}
+       local-dir: build
