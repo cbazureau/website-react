@@ -34,9 +34,15 @@ const Image = ({ src, alt, className, isLazyLoaded = true }) => {
           type="image/webp"
         />
         <source srcSet={srcImage} media="(min-width: 620px)" />
-        <source srcSet={srcImage.replace('.jpg', '.small.webp')} type="image/webp" />
+        <source
+          srcSet={`${srcImage.replace('.jpg', '.small.webp')}, ${srcImage.replace(
+            '.jpg',
+            '.webp',
+          )} 2x`}
+          type="image/webp"
+        />
         <img
-          src={srcImage.replace('.jpg', '.small.jpg')}
+          src={`${srcImage.replace('.jpg', '.small.jpg')}, ${srcImage} 2x`}
           alt={alt}
           className={`Image ${className}`}
         />
