@@ -7,24 +7,31 @@ const outputLog = current => (err, info) => {
   if (err) console.error(err);
 };
 
-const convertImg = img => {
-  const current = sharp(`${imgPath}${img}.jpg`);
-  current.metadata().then(metadata => {
-    current
+const convertImg = async img => {
+  try {
+    const metadata = await sharp(`${imgPath}${img}.jpg`).metadata();
+    const resp = await sharp(`${imgPath}${img}.jpg`)
       .resize(Math.round(metadata.width / 2))
-      .toFile(`${imgPath}${img}.small.jpg`, outputLog(current));
-    current
+      .toFile(`${imgPath}${img}.small.jpg`);
+    await sharp(`${imgPath}${img}.jpg`)
       .resize(Math.round(metadata.width / 2))
       .webp()
-      .toFile(`${imgPath}${img}.small.webp`, outputLog(current));
-  });
-  current.webp().toFile(`${imgPath}${img}.webp`, outputLog(current));
+      .toFile(`${imgPath}${img}.small.webp`);
+
+    await sharp(`${imgPath}${img}.jpg`)
+      .webp()
+      .toFile(`${imgPath}${img}.webp`);
+  } catch (e) {
+    console.log(e);
+  }
 };
 
-fs.readdir(imgPath, (err, files) => {
-  files.forEach(file => {
-    if (file.endsWith('.jpg') && !file.endsWith('.small.jpg')) {
-      convertImg(file.replace('.jpg', ''));
-    }
+(async () => {
+  await fs.readdir(imgPath, async (err, files) => {
+    await files.forEach(async file => {
+      if (file.endsWith('.jpg') && !file.endsWith('.small.jpg')) {
+        await convertImg(file.replace('.jpg', ''));
+      }
+    });
   });
-});
+})();
