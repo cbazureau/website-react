@@ -1,61 +1,5 @@
 [
   {
-    "domain": "concesionario.dacia.es",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.81,
-    "url": "https://concesionario.dacia.es"
-  },
-  {
-    "domain": "www.dacia.pl",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.78,
-    "url": "https://www.dacia.pl"
-  },
-  {
-    "domain": "www.dacia.hu",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.78,
-    "url": "https://www.dacia.hu"
-  },
-  {
-    "domain": "it.dacia.ch",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.77,
-    "url": "https://it.dacia.ch"
-  },
-  {
-    "domain": "concesionario.renault.es",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.77,
-    "url": "https://concesionario.renault.es"
-  },
-  {
-    "domain": "www.dacia.pt",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.76,
-    "url": "https://www.dacia.pt"
-  },
-  {
-    "domain": "www.renault.fr",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.75,
-    "url": "https://www.renault.fr"
-  },
-  {
-    "domain": "www.renault.cz",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.75,
-    "url": "https://www.renault.cz"
-  },
-  {
     "domain": "www.dacia.sk",
     "brand": "dacia",
     "product": "brandsite",
@@ -63,81 +7,32 @@
     "url": "https://www.dacia.sk"
   },
   {
-    "domain": "de.renault.ch",
+    "domain": "concesionario.renault.es",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.75,
-    "url": "https://de.renault.ch"
+    "perf": 0.74,
+    "url": "https://concesionario.renault.es"
   },
   {
-    "domain": "www.renault.ie",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.75,
-    "url": "https://www.renault.ie"
-  },
-  {
-    "domain": "www.dacia.co.uk",
+    "domain": "concesionario.dacia.es",
     "brand": "dacia",
     "product": "brandsite",
     "perf": 0.74,
-    "url": "https://www.dacia.co.uk"
-  },
-  {
-    "domain": "www.dacia.ie",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.74,
-    "url": "https://www.dacia.ie"
-  },
-  {
-    "domain": "www.dacia.si",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.74,
-    "url": "https://www.dacia.si"
-  },
-  {
-    "domain": "www.dacia.cz",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.74,
-    "url": "https://www.dacia.cz"
-  },
-  {
-    "domain": "www.dacia.de",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.73,
-    "url": "https://www.dacia.de"
-  },
-  {
-    "domain": "it.renault.ch",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.73,
-    "url": "https://it.renault.ch"
-  },
-  {
-    "domain": "fr.renault.ch",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.73,
-    "url": "https://fr.renault.ch"
-  },
-  {
-    "domain": "ar.renault.dz",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.73,
-    "url": "https://ar.renault.dz"
+    "url": "https://concesionario.dacia.es"
   },
   {
     "domain": "www.dacia.hr",
     "brand": "dacia",
     "product": "brandsite",
-    "perf": 0.72,
+    "perf": 0.73,
     "url": "https://www.dacia.hr"
+  },
+  {
+    "domain": "www.dacia.si",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.72,
+    "url": "https://www.dacia.si"
   },
   {
     "domain": "de.dacia.ch",
@@ -147,18 +42,11 @@
     "url": "https://de.dacia.ch"
   },
   {
-    "domain": "www.renault.com.mx",
-    "brand": "renault",
+    "domain": "it.dacia.ch",
+    "brand": "dacia",
     "product": "brandsite",
     "perf": 0.71,
-    "url": "https://www.renault.com.mx"
-  },
-  {
-    "domain": "www.renault.sk",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.71,
-    "url": "https://www.renault.sk"
+    "url": "https://it.dacia.ch"
   },
   {
     "domain": "fr.dacia.ch",
@@ -168,39 +56,11 @@
     "url": "https://fr.dacia.ch"
   },
   {
-    "domain": "www.renault.es",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.71,
-    "url": "https://www.renault.es"
-  },
-  {
-    "domain": "www.dacia.at",
+    "domain": "www.dacia.co.uk",
     "brand": "dacia",
     "product": "brandsite",
     "perf": 0.7,
-    "url": "https://www.dacia.at"
-  },
-  {
-    "domain": "www.renault.pl",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.7,
-    "url": "https://www.renault.pl"
-  },
-  {
-    "domain": "www.dacia.ro",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.7,
-    "url": "https://www.dacia.ro"
-  },
-  {
-    "domain": "www.dacia.it",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.7,
-    "url": "https://www.dacia.it"
+    "url": "https://www.dacia.co.uk"
   },
   {
     "domain": "www.dacia.rs",
@@ -210,39 +70,60 @@
     "url": "https://www.dacia.rs"
   },
   {
-    "domain": "www.renault.hr",
+    "domain": "www.renault.ie",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.69,
-    "url": "https://www.renault.hr"
+    "perf": 0.7,
+    "url": "https://www.renault.ie"
   },
   {
-    "domain": "www.renault.dk",
+    "domain": "business.renault.at",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.69,
-    "url": "https://www.renault.dk"
+    "perf": 0.7,
+    "url": "https://business.renault.at"
   },
   {
-    "domain": "www.renault.se",
-    "brand": "renault",
+    "domain": "www.dacia.ie",
+    "brand": "dacia",
     "product": "brandsite",
     "perf": 0.69,
-    "url": "https://www.renault.se"
+    "url": "https://www.dacia.ie"
   },
   {
-    "domain": "www.renault.pt",
-    "brand": "renault",
+    "domain": "www.dacia.cz",
+    "brand": "dacia",
     "product": "brandsite",
     "perf": 0.69,
-    "url": "https://www.renault.pt"
+    "url": "https://www.dacia.cz"
   },
   {
-    "domain": "fr.renault.be",
+    "domain": "www.dacia.hu",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.69,
+    "url": "https://www.dacia.hu"
+  },
+  {
+    "domain": "www.dacia.nl",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.69,
+    "url": "https://www.dacia.nl"
+  },
+  {
+    "domain": "professional.renault.it",
     "brand": "renault",
     "product": "brandsite",
     "perf": 0.68,
-    "url": "https://fr.renault.be"
+    "url": "https://professional.renault.it"
+  },
+  {
+    "domain": "www.dacia.pt",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.67,
+    "url": "https://www.dacia.pt"
   },
   {
     "domain": "www.renault.ro",
@@ -252,32 +133,32 @@
     "url": "https://www.renault.ro"
   },
   {
-    "domain": "www.renault.at",
+    "domain": "www.renault.dk",
     "brand": "renault",
     "product": "brandsite",
     "perf": 0.67,
-    "url": "https://www.renault.at"
+    "url": "https://www.renault.dk"
   },
   {
-    "domain": "www.renault.hu",
+    "domain": "www.renault.si",
     "brand": "renault",
     "product": "brandsite",
     "perf": 0.67,
-    "url": "https://www.renault.hu"
+    "url": "https://www.renault.si"
   },
   {
-    "domain": "fr.dacia.be",
+    "domain": "business.renault.cz",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.67,
+    "url": "https://business.renault.cz"
+  },
+  {
+    "domain": "www.dacia.at",
     "brand": "dacia",
     "product": "brandsite",
-    "perf": 0.67,
-    "url": "https://fr.dacia.be"
-  },
-  {
-    "domain": "www.renault.nl",
-    "brand": "renault",
-    "product": "brandsite",
     "perf": 0.66,
-    "url": "https://www.renault.nl"
+    "url": "https://www.dacia.at"
   },
   {
     "domain": "www.renault.dz",
@@ -287,46 +168,102 @@
     "url": "https://www.renault.dz"
   },
   {
+    "domain": "www.dacia.es",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.66,
+    "url": "https://www.dacia.es"
+  },
+  {
+    "domain": "www.renault.se",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.65,
+    "url": "https://www.renault.se"
+  },
+  {
+    "domain": "www.renault.pt",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.65,
+    "url": "https://www.renault.pt"
+  },
+  {
+    "domain": "profissionais.renault.pt",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.65,
+    "url": "https://profissionais.renault.pt"
+  },
+  {
     "domain": "www.renault.bg",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.66,
+    "perf": 0.64,
     "url": "https://www.renault.bg"
   },
   {
-    "domain": "www.dacia.lu",
+    "domain": "www.dacia.ma",
     "brand": "dacia",
     "product": "brandsite",
     "perf": 0.64,
-    "url": "https://www.dacia.lu"
+    "url": "https://www.dacia.ma"
   },
   {
-    "domain": "www.renault.lu",
+    "domain": "de.renault.ch",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.63,
-    "url": "https://www.renault.lu"
+    "perf": 0.64,
+    "url": "https://de.renault.ch"
   },
   {
-    "domain": "www.dacia.fr",
+    "domain": "www.renault.es",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.64,
+    "url": "https://www.renault.es"
+  },
+  {
+    "domain": "fr.renault.be",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.64,
+    "url": "https://fr.renault.be"
+  },
+  {
+    "domain": "business.renault.hu",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.64,
+    "url": "https://business.renault.hu"
+  },
+  {
+    "domain": "www.dacia.de",
     "brand": "dacia",
     "product": "brandsite",
     "perf": 0.63,
-    "url": "https://www.dacia.fr"
+    "url": "https://www.dacia.de"
   },
   {
-    "domain": "nl.dacia.be",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.63,
-    "url": "https://nl.dacia.be"
-  },
-  {
-    "domain": "professionnels.renault.fr",
+    "domain": "www.renault.pl",
     "brand": "renault",
     "product": "brandsite",
     "perf": 0.63,
-    "url": "https://professionnels.renault.fr"
+    "url": "https://www.renault.pl"
+  },
+  {
+    "domain": "www.renault.hu",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.63,
+    "url": "https://www.renault.hu"
+  },
+  {
+    "domain": "www.renault.nl",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.62,
+    "url": "https://www.renault.nl"
   },
   {
     "domain": "www.renault.com.br",
@@ -336,129 +273,248 @@
     "url": "https://www.renault.com.br"
   },
   {
-    "domain": "www.renault.si",
+    "domain": "www.dacia.it",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.62,
+    "url": "https://www.dacia.it"
+  },
+  {
+    "domain": "www.dacia.bg",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.62,
+    "url": "https://www.dacia.bg"
+  },
+  {
+    "domain": "ar.renault.dz",
     "brand": "renault",
     "product": "brandsite",
     "perf": 0.62,
-    "url": "https://www.renault.si"
+    "url": "https://ar.renault.dz"
   },
   {
-    "domain": "www.dacia.es",
+    "domain": "bedrijfswagens.renault.nl",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.62,
+    "url": "https://bedrijfswagens.renault.nl"
+  },
+  {
+    "domain": "dlabiznesu.renault.pl",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.62,
+    "url": "https://dlabiznesu.renault.pl"
+  },
+  {
+    "domain": "business.renault.sk",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.62,
+    "url": "https://business.renault.sk"
+  },
+  {
+    "domain": "www.renault.co.uk",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.61,
+    "url": "https://www.renault.co.uk"
+  },
+  {
+    "domain": "www.dacia.ro",
     "brand": "dacia",
     "product": "brandsite",
     "perf": 0.61,
-    "url": "https://www.dacia.es"
+    "url": "https://www.dacia.ro"
   },
   {
-    "domain": "www.dacia.nl",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.61,
-    "url": "https://www.dacia.nl"
-  },
-  {
-    "domain": "www.dacia.ma",
+    "domain": "www.dacia.lu",
     "brand": "dacia",
     "product": "brandsite",
     "perf": 0.6,
-    "url": "https://www.dacia.ma"
+    "url": "https://www.dacia.lu"
+  },
+  {
+    "domain": "www.dacia.pl",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.59,
+    "url": "https://www.dacia.pl"
+  },
+  {
+    "domain": "www.renault.lu",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.59,
+    "url": "https://www.renault.lu"
+  },
+  {
+    "domain": "www.renault.sk",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.59,
+    "url": "https://www.renault.sk"
+  },
+  {
+    "domain": "fr.renault.ch",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.58,
+    "url": "https://fr.renault.ch"
+  },
+  {
+    "domain": "nl.dacia.be",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.58,
+    "url": "https://nl.dacia.be"
+  },
+  {
+    "domain": "fr.dacia.be",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.58,
+    "url": "https://fr.dacia.be"
+  },
+  {
+    "domain": "www.renault.com.ar",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.57,
+    "url": "https://www.renault.com.ar"
+  },
+  {
+    "domain": "www.renault.com.mx",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.57,
+    "url": "https://www.renault.com.mx"
+  },
+  {
+    "domain": "www.dacia.fr",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.57,
+    "url": "https://www.dacia.fr"
   },
   {
     "domain": "www.renault.it",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.59,
+    "perf": 0.56,
     "url": "https://www.renault.it"
   },
   {
     "domain": "www.renault.com.tr",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.59,
+    "perf": 0.55,
     "url": "https://www.renault.com.tr"
-  },
-  {
-    "domain": "www.renault.de",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.58,
-    "url": "https://www.renault.de"
-  },
-  {
-    "domain": "www.dacia.bg",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.58,
-    "url": "https://www.dacia.bg"
-  },
-  {
-    "domain": "nl.renault.be",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.58,
-    "url": "https://nl.renault.be"
-  },
-  {
-    "domain": "www.dacia.com.tr",
-    "brand": "dacia",
-    "product": "brandsite",
-    "perf": 0.56,
-    "url": "https://www.dacia.com.tr"
-  },
-  {
-    "domain": "www.renault.com.ar",
-    "brand": "renault",
-    "product": "brandsite",
-    "perf": 0.56,
-    "url": "https://www.renault.com.ar"
   },
   {
     "domain": "www.renault.com.co",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.54,
+    "perf": 0.55,
     "url": "https://www.renault.com.co"
   },
   {
-    "domain": "www.renault.co.uk",
+    "domain": "www.renault.cz",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.55,
+    "url": "https://www.renault.cz"
+  },
+  {
+    "domain": "www.renault.fr",
     "brand": "renault",
     "product": "brandsite",
     "perf": 0.53,
-    "url": "https://www.renault.co.uk"
+    "url": "https://www.renault.fr"
   },
   {
     "domain": "www.renault.co.in",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.52,
+    "perf": 0.53,
     "url": "https://www.renault.co.in"
   },
   {
-    "domain": "www.renault.ua",
+    "domain": "www.renault.at",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.5,
-    "url": "https://www.renault.ua"
+    "perf": 0.53,
+    "url": "https://www.renault.at"
+  },
+  {
+    "domain": "it.renault.ch",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.53,
+    "url": "https://it.renault.ch"
+  },
+  {
+    "domain": "professionnels.renault.fr",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.53,
+    "url": "https://professionnels.renault.fr"
+  },
+  {
+    "domain": "nl.renault.be",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.52,
+    "url": "https://nl.renault.be"
   },
   {
     "domain": "www.renault.ma",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.44,
+    "perf": 0.5,
     "url": "https://www.renault.ma"
+  },
+  {
+    "domain": "www.renault.hr",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.49,
+    "url": "https://www.renault.hr"
+  },
+  {
+    "domain": "www.renault.de",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.45,
+    "url": "https://www.renault.de"
+  },
+  {
+    "domain": "www.dacia.com.tr",
+    "brand": "dacia",
+    "product": "brandsite",
+    "perf": 0.42,
+    "url": "https://www.dacia.com.tr"
+  },
+  {
+    "domain": "www.renault.ua",
+    "brand": "renault",
+    "product": "brandsite",
+    "perf": 0.39,
+    "url": "https://www.renault.ua"
   },
   {
     "domain": "www.renault.ru",
     "brand": "renault",
     "product": "brandsite",
-    "perf": 0.3,
+    "perf": 0.28,
     "url": "https://www.renault.ru"
   },
   {
     "domain": "config.alpinecars.com",
     "brand": "alpine",
     "product": "config",
-    "perf": 0.99,
+    "perf": 0.98,
     "url": "https://config.alpinecars.com"
   },
   {
@@ -490,46 +546,88 @@
     "url": "https://config.renault.hr"
   },
   {
+    "domain": "dealers.dacia.ie",
+    "brand": "renault",
+    "product": "dws",
+    "perf": 0.79,
+    "url": "https://dealers.dacia.ie"
+  },
+  {
+    "domain": "dealers.renault.ie",
+    "brand": "renault",
+    "product": "dws",
+    "perf": 0.74,
+    "url": "https://dealers.renault.ie"
+  },
+  {
+    "domain": "reseau.dacia.fr",
+    "brand": "dacia",
+    "product": "dws",
+    "perf": 0.72,
+    "url": "https://reseau.dacia.fr"
+  },
+  {
+    "domain": "concessionnaire.renault.fr",
+    "brand": "renault",
+    "product": "dws",
+    "perf": 0.61,
+    "url": "https://concessionnaire.renault.fr"
+  },
+  {
+    "domain": "en.renaultclassic.com",
+    "brand": "renault",
+    "product": "renault-classic",
+    "perf": 0.75,
+    "url": "https://en.renaultclassic.com"
+  },
+  {
+    "domain": "fr.renaultclassic.com",
+    "brand": "renault",
+    "product": "renault-classic",
+    "perf": 0.7,
+    "url": "https://fr.renaultclassic.com"
+  },
+  {
     "domain": "rvp.renault.fr",
     "brand": "renault",
     "product": "rvp",
-    "perf": 0.45,
+    "perf": 0.37,
     "url": "https://rvp.renault.fr"
   },
   {
-    "domain": "cote.renault.fr",
+    "domain": "valutazioneusato.dacia.it",
+    "brand": "dacia",
+    "product": "tradein",
+    "perf": 0.77,
+    "url": "https://valutazioneusato.dacia.it"
+  },
+  {
+    "domain": "wycena.renault.pl",
     "brand": "renault",
     "product": "tradein",
     "perf": 0.73,
-    "url": "https://cote.renault.fr"
+    "url": "https://wycena.renault.pl"
   },
   {
     "domain": "tasar-coche.renault.es",
     "brand": "renault",
     "product": "tradein",
-    "perf": 0.73,
+    "perf": 0.72,
     "url": "https://tasar-coche.renault.es"
   },
   {
     "domain": "valutazioneusato.renault.it",
     "brand": "renault",
     "product": "tradein",
-    "perf": 0.73,
+    "perf": 0.72,
     "url": "https://valutazioneusato.renault.it"
   },
   {
-    "domain": "tasar-coche.dacia.es",
-    "brand": "dacia",
-    "product": "tradein",
-    "perf": 0.72,
-    "url": "https://tasar-coche.dacia.es"
-  },
-  {
-    "domain": "retoma.renault.pt",
+    "domain": "reprise.renault.be",
     "brand": "renault",
     "product": "tradein",
-    "perf": 0.72,
-    "url": "https://retoma.renault.pt"
+    "perf": 0.71,
+    "url": "https://reprise.renault.be"
   },
   {
     "domain": "cote.dacia.fr",
@@ -539,199 +637,227 @@
     "url": "https://cote.dacia.fr"
   },
   {
-    "domain": "valutazioneusato.dacia.it",
-    "brand": "dacia",
-    "product": "tradein",
-    "perf": 0.71,
-    "url": "https://valutazioneusato.dacia.it"
-  },
-  {
     "domain": "retoma.dacia.pt",
     "brand": "dacia",
     "product": "tradein",
-    "perf": 0.71,
+    "perf": 0.7,
     "url": "https://retoma.dacia.pt"
+  },
+  {
+    "domain": "tasar-coche.dacia.es",
+    "brand": "dacia",
+    "product": "tradein",
+    "perf": 0.69,
+    "url": "https://tasar-coche.dacia.es"
+  },
+  {
+    "domain": "retoma.renault.pt",
+    "brand": "renault",
+    "product": "tradein",
+    "perf": 0.69,
+    "url": "https://retoma.renault.pt"
+  },
+  {
+    "domain": "reprise.renault.ch",
+    "brand": "renault",
+    "product": "tradein",
+    "perf": 0.69,
+    "url": "https://reprise.renault.ch"
   },
   {
     "domain": "reprise.dacia.lu",
     "brand": "dacia",
     "product": "tradein",
-    "perf": 0.71,
+    "perf": 0.68,
     "url": "https://reprise.dacia.lu"
+  },
+  {
+    "domain": "eintausch.renault.ch",
+    "brand": "renault",
+    "product": "tradein",
+    "perf": 0.68,
+    "url": "https://eintausch.renault.ch"
+  },
+  {
+    "domain": "permuta.renault.ch",
+    "brand": "renault",
+    "product": "tradein",
+    "perf": 0.68,
+    "url": "https://permuta.renault.ch"
+  },
+  {
+    "domain": "cote.renault.fr",
+    "brand": "renault",
+    "product": "tradein",
+    "perf": 0.67,
+    "url": "https://cote.renault.fr"
   },
   {
     "domain": "overname.renault.be",
     "brand": "renault",
     "product": "tradein",
-    "perf": 0.7,
+    "perf": 0.65,
     "url": "https://overname.renault.be"
-  },
-  {
-    "domain": "reprise.renault.be",
-    "brand": "renault",
-    "product": "tradein",
-    "perf": 0.68,
-    "url": "https://reprise.renault.be"
-  },
-  {
-    "domain": "reprise.dacia.be",
-    "brand": "dacia",
-    "product": "tradein",
-    "perf": 0.68,
-    "url": "https://reprise.dacia.be"
   },
   {
     "domain": "overname.dacia.be",
     "brand": "dacia",
     "product": "tradein",
-    "perf": 0.68,
+    "perf": 0.65,
     "url": "https://overname.dacia.be"
   },
   {
-    "domain": "wycena.renault.pl",
-    "brand": "renault",
+    "domain": "reprise.dacia.be",
+    "brand": "dacia",
     "product": "tradein",
-    "perf": 0.61,
-    "url": "https://wycena.renault.pl"
+    "perf": 0.62,
+    "url": "https://reprise.dacia.be"
   },
   {
-    "domain": "occasies.renault.be",
+    "domain": "selection.renault.co",
     "brand": "renault",
     "product": "uci",
-    "perf": 0.68,
-    "url": "https://occasies.renault.be"
+    "perf": 0.79,
+    "url": "https://selection.renault.co"
   },
   {
-    "domain": "occasions.renault.be",
+    "domain": "selection.renault.mx",
     "brand": "renault",
     "product": "uci",
-    "perf": 0.67,
-    "url": "https://occasions.renault.be"
-  },
-  {
-    "domain": "veicoli-occasione.renault.it",
-    "brand": "renault",
-    "product": "uci",
-    "perf": 0.67,
-    "url": "https://veicoli-occasione.renault.it"
+    "perf": 0.71,
+    "url": "https://selection.renault.mx"
   },
   {
     "domain": "selection.renault.es",
     "brand": "renault",
     "product": "uci",
-    "perf": 0.67,
+    "perf": 0.69,
     "url": "https://selection.renault.es"
   },
   {
     "domain": "gebrauchtwagen.renault.at",
     "brand": "renault",
     "product": "uci",
-    "perf": 0.66,
+    "perf": 0.69,
     "url": "https://gebrauchtwagen.renault.at"
-  },
-  {
-    "domain": "selection.renault.ro",
-    "brand": "renault",
-    "product": "uci",
-    "perf": 0.66,
-    "url": "https://selection.renault.ro"
-  },
-  {
-    "domain": "selection.renault.pt",
-    "brand": "renault",
-    "product": "uci",
-    "perf": 0.65,
-    "url": "https://selection.renault.pt"
   },
   {
     "domain": "occasion.renault.fr",
     "brand": "renault",
     "product": "uci",
-    "perf": 0.64,
+    "perf": 0.68,
     "url": "https://occasion.renault.fr"
   },
   {
     "domain": "selection.renault.ie",
     "brand": "renault",
     "product": "uci",
-    "perf": 0.63,
+    "perf": 0.68,
     "url": "https://selection.renault.ie"
   },
   {
-    "domain": "selection.renault.mx",
+    "domain": "selection.renault.pt",
     "brand": "renault",
     "product": "uci",
-    "perf": 0.61,
-    "url": "https://selection.renault.mx"
+    "perf": 0.67,
+    "url": "https://selection.renault.pt"
   },
   {
     "domain": "selection.renault.com.ar",
     "brand": "renault",
     "product": "uci",
-    "perf": 0.6,
+    "perf": 0.66,
     "url": "https://selection.renault.com.ar"
   },
   {
-    "domain": "selection.renault.co",
+    "domain": "occasions.renault.be",
     "brand": "renault",
     "product": "uci",
-    "perf": 0.59,
-    "url": "https://selection.renault.co"
+    "perf": 0.65,
+    "url": "https://occasions.renault.be"
+  },
+  {
+    "domain": "occasies.renault.be",
+    "brand": "renault",
+    "product": "uci",
+    "perf": 0.61,
+    "url": "https://occasies.renault.be"
+  },
+  {
+    "domain": "veicoli-occasione.renault.it",
+    "brand": "renault",
+    "product": "uci",
+    "perf": 0.6,
+    "url": "https://veicoli-occasione.renault.it"
+  },
+  {
+    "domain": "selection.renault.ro",
+    "brand": "renault",
+    "product": "uci",
+    "perf": 0.6,
+    "url": "https://selection.renault.ro"
+  },
+  {
+    "domain": "selection.renault.co.in",
+    "brand": "renault",
+    "product": "uci",
+    "perf": 0.34,
+    "url": "https://selection.renault.co.in"
   },
   {
     "domain": "myr.renault.pt",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.58,
+    "perf": 0.49,
     "url": "https://myr.renault.pt"
   },
   {
     "domain": "myr.renault.dk",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.58,
+    "perf": 0.47,
     "url": "https://myr.renault.dk"
   },
   {
     "domain": "myr.renault.se",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.58,
+    "perf": 0.55,
     "url": "https://myr.renault.se"
   },
   {
     "domain": "myr.renault.ro",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.63,
+    "perf": 0.53,
     "url": "https://myr.renault.ro"
   },
   {
     "domain": "myr-it.renault.ch",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.56,
+    "perf": 0.49,
     "url": "https://myr-it.renault.ch"
   },
   {
     "domain": "myr.renault.fr",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.57,
+    "perf": 0.48,
     "url": "https://myr.renault.fr"
   },
   {
     "domain": "myr.renault.si",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.57,
+    "perf": 0.5,
     "url": "https://myr.renault.si"
   },
   {
     "domain": "myr-fr.renault.be",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.54,
+    "perf": 0.46,
     "url": "https://myr-fr.renault.be"
   },
   {
@@ -745,56 +871,56 @@
     "domain": "myr.renault.nl",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.56,
+    "perf": 0.48,
     "url": "https://myr.renault.nl"
   },
   {
     "domain": "myr.renault.at",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.59,
+    "perf": 0.48,
     "url": "https://myr.renault.at"
   },
   {
     "domain": "myr.renault.it",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.59,
+    "perf": 0.54,
     "url": "https://myr.renault.it"
   },
   {
     "domain": "myr.renault.pl",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.61,
+    "perf": 0.6,
     "url": "https://myr.renault.pl"
   },
   {
     "domain": "myr-nl.renault.be",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.56,
+    "perf": 0.45,
     "url": "https://myr-nl.renault.be"
   },
   {
     "domain": "myr-fr.renault.ch",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.57,
+    "perf": 0.45,
     "url": "https://myr-fr.renault.ch"
   },
   {
     "domain": "myr-de.renault.ch",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.54,
+    "perf": 0.43,
     "url": "https://myr-de.renault.ch"
   },
   {
     "domain": "myr.renault.es",
     "brand": "renault",
     "product": "myrenault",
-    "perf": 0.57,
+    "perf": 0.46,
     "url": "https://myr.renault.es"
   }
 ]

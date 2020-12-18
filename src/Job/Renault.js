@@ -12,11 +12,8 @@ const Renault = () => {
         {sites.length} sites actuellement en prod sur cette stack technique
       </div>
       <div className="Renault__sites">
-        {displayedSites.map(({ url, domain, perf, product }) => (
+        {displayedSites.map(({ url, domain, product }) => (
           <a href={url} key={domain} className="Renault__site">
-            {product !== 'myrenault' && (
-              <span className="Renault__perf">{Math.round(perf * 100)}</span>
-            )}
             <Image
               className="Renault__background"
               src={`/static/img/renault-${domain}.jpg`}

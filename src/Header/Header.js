@@ -20,6 +20,8 @@ const Header = ({ onSectionChange }) => (
           src="/static/img/identite.jpg"
           alt="logo"
           isLazyLoaded={false}
+          width="100px"
+          height="100px"
         />
         <h1 className="Header__name">C&eacute;dric Bazureau</h1>
         <h2 className="Header__job" data-section="headline">

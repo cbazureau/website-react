@@ -5,7 +5,7 @@ import Observer from '@researchgate/react-intersection-observer';
 const BLANK_IMG =
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAQAAACRI2S5AAAAEElEQVR42mNkIAAYRxWAAQAG9gAKqv6+AwAAAABJRU5ErkJggg==';
 
-const Image = ({ src, alt, className, isLazyLoaded = true, isRetina = true }) => {
+const Image = ({ src, alt, className, isLazyLoaded = true, isRetina = true, ...rest }) => {
   const [stayVisible, setVisibility] = useState(false);
 
   const onChangeVisibility = event => {
@@ -49,6 +49,7 @@ const Image = ({ src, alt, className, isLazyLoaded = true, isRetina = true }) =>
           src={srcImage.replace('.jpg', '.small.jpg')}
           alt={alt}
           className={`Image ${className}`}
+          {...rest}
         />
       </picture>
     </Comp>

@@ -23,8 +23,10 @@ exports[`Header component renders with props 1`] = `
       <image
         alt="logo"
         className="Header__logo"
+        height="100px"
         isLazyLoaded={false}
         src="/static/img/identite.jpg"
+        width="100px"
       />
       <h1
         className="Header__name"
@@ -63,8 +65,10 @@ exports[`Header component renders without crashing 1`] = `
       <image
         alt="logo"
         className="Header__logo"
+        height="100px"
         isLazyLoaded={false}
         src="/static/img/identite.jpg"
+        width="100px"
       />
       <h1
         className="Header__name"

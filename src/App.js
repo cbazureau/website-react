@@ -38,9 +38,10 @@ const App = () => {
               company="Groupe Renault"
               dates="depuis mai 2017"
               url="https://group.renault.com/en/"
-              description="Lead Tech des équipes (4 équipes, + de 15 developpeurs)
-                  dans le cadre de la refonte des sites du groupe Renault (Renault, Dacia, Alpine)
-                  qui seront déployés dans plus de 50 pays."
+              description="Lead Tech des 6 équipes (26 développeurs) dont 4 équipes en France (19 dev),
+              une en Inde (4 dev) et une en Roumanie (3 dev)
+                  dans le cadre de la refonte et des évolutions des sites du groupe Renault (Renault, Dacia, Alpine)
+                  qui sont déployés dans plus de 40 pays."
             >
               <ul>
                 <li>
