@@ -110,8 +110,8 @@ const Expert = () => (
       <ExportBlock
         svg={renderSVGMobile()}
         title="D&eacute;veloppement Multi-Support"
-        desc="Aguerri au d&eacute;veloppement d'applications web complexes React, Angular,
-          NodeJs, PHP, HTML5/JS/CSS multi-navigateurs
+        desc="Aguerri au d&eacute;veloppement d'applications web complexes React,
+          NodeJs, HTML5/JS/CSS (mais également Angular, PHP) multi-navigateurs
           et multi-devices en Responsive ou Adaptive Design dans des contextes multi-langues."
       />
       <ExportBlock
@@ -124,17 +124,15 @@ const Expert = () => (
       />
       <ExportBlock
         svg={renderSVGParams()}
-        title="Comp&eacute;tences Serveur"
-        desc="Installation et param&eacute;trage des diff&eacute;rentes briques
-         logiciels (apache, nginx, php, nodejs, ...)
-         sous Unix, OsX ou Windows. Utilisatation des diff&eacute;rents services AWS,
-         de jobs Gitlab-CI ou Jenkins."
+        title="Comp&eacute;tences Serveur/Cloud"
+        desc="Hébergement AWS ou GCP via images docker ou non. Forte expertise sur les diff&eacute;rents niveaux d'une stack (NGINX, NodeJs, static, CDN)
+         sur les services AWS (ECS, EC2, Cloudfront, S3, lambda, ...) et sur les solutions de CI (Gitlab-CI, Jenkins)"
       />
       <ExportBlock
         svg={renderSVGLeBeauJeu()}
         title="L'appui de la communauté du beau jeu"
-        desc="Communauté que j'ai créée il y a plus d'un an qui rassemble une liste d'experts du web
-          que j'ai pu rencontrer au cours de mes différentes expériences."
+        desc="Communaut&eacute;, sous la forme d'un slack privé, que j'ai cr&eacute;&eacute;e il y a plus de deux ans qui rassemble une liste d'experts du web
+          que j'ai pu rencontrer au cours de mes diff&eacute;rentes exp&eacute;riences."
         link="https://lebeaujeu.com"
       />
     </div>
