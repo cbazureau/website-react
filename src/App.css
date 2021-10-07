@@ -11,22 +11,6 @@
   .Page {
     position: relative;
   }
-  .Page::after,
-  .Page::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 25%;
-    z-index: 1;
-    bottom: 0;
-    width: 24px;
-    background: var(--neutral-lightest);
-  }
-
-  .Page::after {
-    right: 25%;
-    left: auto;
-  }
 }
 
 .Page__inner {
