@@ -1,59 +1,52 @@
 import React, { useState } from 'react';
-import Observer from '@researchgate/react-intersection-observer';
 
-// eslint-disable-next-line import/prefer-default-export
-const BLANK_IMG =
-  'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAQAAACRI2S5AAAAEElEQVR42mNkIAAYRxWAAQAG9gAKqv6+AwAAAABJRU5ErkJggg==';
+const SRC = './src/static/img/';
+const PUBLIC = './public/static/img/';
+const RESOLUTIONS = [
+  { width: 375, quality: 80 },
+  { width: 640, quality: 80 },
+  { width: 750, quality: 80 },
+  { width: 1024, quality: 80 },
+  { width: 1280, quality: 80 },
+  { width: 2048, quality: 80 },
+  { width: 2560, quality: 80 },
+];
 
-const Image = ({ src, alt, className, isLazyLoaded = true, isRetina = true, ...rest }) => {
-  const [stayVisible, setVisibility] = useState(false);
+/**
+ * getExtension
+ * @param {*} src
+ * @returns
+ */
+const getExtension = (src) => src.split('.').pop();
 
-  const onChangeVisibility = event => {
-    if (!stayVisible && event.isIntersecting) {
-      setVisibility(true);
-    }
-  };
-  const Comp = isLazyLoaded ? Observer : React.Fragment;
+/**
+ * Build srcset
+ * @param {*} src
+ * @param {*} format
+ * @returns
+ */
+const buildSrcSet = (src, format) =>
+  RESOLUTIONS.map(
+    ({ width }) => `${src.replace(SRC, PUBLIC).replace('.jpg', `.${width}.${format}`)} ${width}w`,
+  ).join(', ');
 
-  const srcImage = stayVisible || !isLazyLoaded ? src : BLANK_IMG;
-
-  const options = isLazyLoaded
-    ? {
-        onChange: onChangeVisibility,
-        onlyOnce: true,
-        rootMargin: '0px 0px 100px 0px',
-      }
-    : {};
-
-  return (
-    <Comp {...options}>
-      <picture>
-        <source
-          srcSet={srcImage.replace('.jpg', '.webp')}
-          media="(min-width: 620px)"
-          type="image/webp"
-        />
-        <source srcSet={srcImage} media="(min-width: 620px)" />
-        <source
-          srcSet={
-            isRetina
-              ? `${srcImage.replace('.jpg', '.small.webp')}, ${srcImage.replace(
-                  '.jpg',
-                  '.webp',
-                )} 2x`
-              : srcImage.replace('.jpg', '.small.webp')
-          }
-          type="image/webp"
-        />
-        <img
-          src={srcImage.replace('.jpg', '.small.jpg')}
-          alt={alt}
-          className={`Image ${className}`}
-          {...rest}
-        />
-      </picture>
-    </Comp>
-  );
-};
+const Image = ({ src, alt, className, isLazyLoaded = true, sizes = '100vw' }) => (
+  <picture>
+    <source srcSet={buildSrcSet(src, 'webp')} type="image/webp" />
+    <source
+      srcSet={buildSrcSet(src, getExtension(src))}
+      type={getExtension(src) === 'png' ? 'image/png' : 'image/jpeg'}
+    />
+    <img
+      src={srcImage.replace(
+        `.${getExtension(src)}`,
+        `.${RESOLUTIONS[0].width}.${getExtension(src)}`,
+      )}
+      alt={alt}
+      className={className}
+      loading={isLazyLoaded ? 'lazy' : undefined}
+    />
+  </picture>
+);
 
 export default Image;

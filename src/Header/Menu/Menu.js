@@ -1,11 +1,11 @@
 import React from 'react';
 import './Menu.css';
 
-const Menu = ({ onSectionChange }) => (
+const Menu = ({ onSectionChange = () => undefined }) => (
   <ul className="Menu">
     <li key="link-home">
       <button className="Menu__link" onClick={onSectionChange('current')}>
-        Poste Actuel
+        Current Job
       </button>
     </li>
     <li key="link-xp">
@@ -15,14 +15,10 @@ const Menu = ({ onSectionChange }) => (
     </li>
     <li key="link-jobs">
       <button className="Menu__link" onClick={onSectionChange('jobs')}>
-        Carri&egrave;re
+        Career
       </button>
     </li>
   </ul>
 );
-
-Menu.defaultProps = {
-  onSectionChange: () => undefined,
-};
 
 export default Menu;

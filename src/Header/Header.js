@@ -25,7 +25,7 @@ const Header = ({ onSectionChange }) => (
         />
         <h1 className="Header__name">C&eacute;dric Bazureau</h1>
         <h2 className="Header__job" data-section="headline">
-          Lead Tech Front à Renault
+          Senior Front Tech lead Tech at Renault
         </h2>
       </div>
     </div>

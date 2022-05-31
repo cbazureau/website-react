@@ -8,19 +8,19 @@ const downloadImage = (url, image_path) =>
     url,
     responseType: 'stream',
   }).then(
-    response =>
+    (response) =>
       new Promise((resolve, reject) => {
         response.data
           .pipe(fs.createWriteStream(image_path))
           .on('finish', () => resolve())
-          .on('error', e => reject(e));
+          .on('error', (e) => reject(e));
       }),
   );
 
 (async () => {
   const { data } = await axios.get(`${ONE}/data/sites.json`);
   const jsonData = data
-    .filter(d => d.type === 'one' && d.lighthouse === true)
+    .filter((d) => d.type === 'one' && d.lighthouse === true)
     .map(({ domain, brand, ligthhouse_url, product, scores }) => ({
       domain,
       brand,
@@ -37,11 +37,8 @@ const downloadImage = (url, image_path) =>
   console.log(jsonData);
   await fs.promises.writeFile('./src/renault.json', JSON.stringify(jsonData));
 
-  const promises = jsonData.map(d =>
-    downloadImage(
-      `${ONE}/data/${d.domain}.thumb.jpg`,
-      `./public/static/img/renault-${d.domain}.jpg`,
-    ),
+  const promises = jsonData.map((d) =>
+    downloadImage(`${ONE}/data/${d.domain}.thumb.jpg`, `./src/static/img/renault-${d.domain}.jpg`),
   );
   try {
     await Promise.all(promises);
