@@ -1,4 +1,5 @@
 const sharp = require('sharp');
+const path = require('path');
 const fs = require('fs-extra');
 const SRC = './src/static/img/';
 const PUBLIC = './public/static/img/';
@@ -22,7 +23,7 @@ const RESOLUTIONS = [
 const convertImg = async (img, res = {}, format) => {
   const { width, quality } = res;
   try {
-    const target = img.replace(SRC, PUBLIC).replace(getJpgExt(img), `.${width}.${format}`);
+    const target = img.replace(SRC, PUBLIC).replace(`.${format}`, `.${width}.${format}`);
     if (fs.existsSync(target)) {
       return Promise.resolve();
     }

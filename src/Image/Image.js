@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const SRC = './src/static/img/';
 const PUBLIC = './public/static/img/';
