@@ -9,7 +9,7 @@ exports[`Menu component renders with props 1`] = `
       className="Menu__link"
       onClick={[Function]}
     >
-      Poste Actuel
+      Current Job
     </button>
   </li>
   <li>
@@ -25,7 +25,7 @@ exports[`Menu component renders with props 1`] = `
       className="Menu__link"
       onClick={[Function]}
     >
-      Carrière
+      Career
     </button>
   </li>
 </ul>
@@ -39,7 +39,7 @@ exports[`Menu component renders without crashing 1`] = `
     <button
       className="Menu__link"
     >
-      Poste Actuel
+      Current Job
     </button>
   </li>
   <li>
@@ -53,7 +53,7 @@ exports[`Menu component renders without crashing 1`] = `
     <button
       className="Menu__link"
     >
-      Carrière
+      Career
     </button>
   </li>
 </ul>

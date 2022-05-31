@@ -37,7 +37,7 @@ exports[`Header component renders with props 1`] = `
         className="Header__job"
         data-section="headline"
       >
-        Lead Tech Front à Renault
+        Senior Front Tech lead Tech at Renault
       </h2>
     </div>
   </div>
@@ -79,7 +79,7 @@ exports[`Header component renders without crashing 1`] = `
         className="Header__job"
         data-section="headline"
       >
-        Lead Tech Front à Renault
+        Senior Front Tech lead Tech at Renault
       </h2>
     </div>
   </div>

@@ -38,10 +38,7 @@ const Image = ({ src, alt, className, isLazyLoaded = true, sizes = '100vw' }) =>
       type={getExtension(src) === 'png' ? 'image/png' : 'image/jpeg'}
     />
     <img
-      src={srcImage.replace(
-        `.${getExtension(src)}`,
-        `.${RESOLUTIONS[0].width}.${getExtension(src)}`,
-      )}
+      src={src.replace(`.${getExtension(src)}`, `.${RESOLUTIONS[0].width}.${getExtension(src)}`)}
       alt={alt}
       className={className}
       loading={isLazyLoaded ? 'lazy' : undefined}
